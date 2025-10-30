@@ -3,15 +3,39 @@ Difference btwn list, tuple, and set: https://www.geeksforgeeks.org/python/diffe
     - frozenset() https://www.geeksforgeeks.org/python/frozenset-in-python/
 
 ------------------------------------------------------------------------------------------------------------------------------
-list
+List
 
+Ordered, mutable, allows duplicates
+
+Elements can be modified or added.
+
+Supports indexing and slicing.
+
+Slower for membership tests.
+
+Use: When frequent updates or reordering is needed.
 
 ------------------------------------------------------------------------------------------------------------------------------
-tuple
+Tuple
 
+Ordered, immutable, allows duplicates.
+
+Supports indexing and slicing.
+
+Faster than lists.
+
+Use: For fixed data that shouldn’t change.
 
 ------------------------------------------------------------------------------------------------------------------------------
-set
+Set
+
+Unordered, mutable, unique elements only.
+
+No indexing or slicing.
+
+Fast for membership tests (in).
+
+Use: When you need uniqueness or to remove duplicates.
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --  -- -- -- 
 frozenset()
