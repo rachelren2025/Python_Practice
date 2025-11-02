@@ -1,0 +1,4 @@
+walrus operator
+    - :=
+go over precedence:
+    - https://www.w3schools.com/python/python_operators_precedence.asp
